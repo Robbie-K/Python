@@ -1,0 +1,19 @@
+Exercise 7 part a)
+
+a. There are 44 functions in the math module.
+
+b. math.ceil(x) returns the nearest integer equal to or greater than x
+math.floor(x) returns the nearest integer equal to or lower than x
+example:
+both math.ceil(5) and math.floor(5) return 5 but:
+math.ceil(2.1) returns 3
+math.floor(2.1) returns 2
+so essentially math.ceil() rounds up no matter how small the decimal and
+math.floor() does the opposite, it rounds down no matter how big the decimal
+
+c. since python has a built in function for exponents you can use that instead
+of using math.sqrt() since we know the square root of a number is that number to
+the power or a half hence math.sqrt(x) is the same as x**(1/2)
+
+d. my math module came up with 3 data constants instead of 2:
+e = 2.718..., pi = 3.141..., and tau = 6.283...
